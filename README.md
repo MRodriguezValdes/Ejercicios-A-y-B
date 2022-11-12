@@ -145,12 +145,12 @@ Con los pasos anteriores tendriamos nuestro archivo en _GitLab_
 
 6.Si perdemos nuestro proyecto y lo tenemos en github podemos clonarlo al directorio que deseemos haciendo uso del comando ```git clone``` [url del proyecto](https://github.com/MRodriguezValdes/Ejercicios-A-y-B.git)
 
-![](capturas/12m.PNG)
+![](capturas/12m.png)
 
 
-![](capturas/13m.PNG)
+![](capturas/13m.png)
 
 
-![](capturas/14m.PNG)
+![](capturas/14m.png)
 
 ```Con esto damos por concluidos los Ejercicios```
