@@ -100,3 +100,20 @@ Con los pasos anteriores tendriamos nuestro archivo en _GitLab_
 
 # Modificaciones:
 1.Esta linea ha sido insertada en _GitHub_ y posteriormente haré un ```commint``` de ella para actualizar los cambios en mi repositorio local haciendo uso del comando ```git pull orgin main ```
+
+2.Si hacemos un cambio en el documento y antes de ejecutar el comando ```git add nombre_del_archivo``` ejecutamos el comando ```git checkout nombre_del_archivo``` todos los cambios se deshacen.
+
+3.Si hacemos un cambio en el documento y luego ejecutamos el comando ```git add nombre_del_documento``` y autoseguido intentamos lo comentado anteriormente ```git checkout nombre_del_archivo``` observamos que no sucede nada porque ya hemos indexado el archivo, es decir , ahora se encuentra en la _(staged area)_ y primero debemos sacarlo de ahi para poder ejecutar el comando anterior , para ello, hacemos uso del comando ```git reset HEAD nombre_del_archivo``` y luego aplicamos el comando ```git checkout nombre_del_archivo``` y observamos que todos los cambios en el documento se deshacen.
+
+4.Para regresar a una version especifica de un archivo de forma temporal ejecutamos el comando ```git checkout hash_del archivo nombre_del_archivo```
+
+- El hash del archivo en sus diferentes versiones podemos buscarlo en:
+    
+    - _GitHub_:Damos click en el archivo y luego nos dirigimos a _history_,donde encontramos las diferentes versiones del mismo y podemos acceder al hash que deseemos.
+    - Ejecutando el comando ```git log -- oneline``` nos sale justo al lado de cada commit.
+
+
+5.Podemos regresar a una fase del proyecto de forma permanente ejecutando el comando ```git reset --hard hash_del_commit```
+
+
+6.Si perdemos nuestro proyecto y lo tenemos en github podemos clonarlo al directorio que deseemos haciendo uso del comando ```git clone``` [url del proyecto](https://github.com/MRodriguezValdes/Ejercicios-A-y-B.git)
