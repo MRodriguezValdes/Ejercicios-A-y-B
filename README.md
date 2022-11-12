@@ -28,7 +28,7 @@
 
 ![](capturas/6.png)
 ---
-8.Si ejecutamos el comando ```git status -s``` esta vez no nos saldra ningun archivo , lo que indica q todos estan en _(Local Repository)_ y desde el ultimo cambio que guardamos,no hubo ninguno mas.
+8.Si ejecutamos el comando ```git status -s``` esta vez no nos saldra ningun archivo , lo que indica que todos estan en _(Local Repository)_ y desde el ultimo cambio que guardamos,no hubo ninguno mas.
 
 ![](capturas/8.png)
 ---
@@ -97,3 +97,6 @@
 Con los pasos anteriores tendriamos nuestro archivo en _GitLab_
 
 ![](capturas/4g.png)
+
+# Modificaciones:
+1.Esta linea ha sido insertada en _GitHub_ y posteriormente haré un ```commint``` de ella para actualizar los cambios en mi repositorio local haciendo uso del comando ```git pull orgin main ```
