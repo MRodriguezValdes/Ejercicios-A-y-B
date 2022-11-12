@@ -82,7 +82,7 @@
 
 # Git Lab
 
-1.Manteniendo los pasos anteriores ,para subir nuestro archivo a _GitLab_ solo tendriamos que cambiar el repositorio remoto, utilizando el comando ```git remote add gitlab``` seguido del [url del repositorio](git@gitlab.com:MarcosRdguez/ejercicios-a-y-b.git) dode escribo gitlab puedes poner cualqier cosa.
+1.Manteniendo los pasos anteriores ,para subir nuestro archivo a _GitLab_ solo tendriamos que cambiar el repositorio remoto, utilizando el comando ```git remote add gitlab``` seguido del [url del repositorio](https://gitlab.com/MarcosRdguez/ejercicios-a-y-b.git) dode escribo gitlab puedes poner cualqier cosa.
 
 ![](capturas/1g.png)
 
