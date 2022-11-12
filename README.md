@@ -78,3 +78,22 @@
 18.Siguiendo los pasos anteriores ya tendriamos nuestro archivo en git hub 
 
 ![](capturas/16.png)
+
+
+# Git Lab
+
+1.Manteniendo los pasos anteriores ,para subir nuestro archivo a _GitLab_ solo tendriamos que cambiar el repositorio remoto, utilizando el comando ```git remote add gitlab``` seguido del [url del repositorio](git@gitlab.com:MarcosRdguez/ejercicios-a-y-b.git) dode escribo gitlab puedes poner cualqier cosa.
+
+![](capturas/1g.png)
+
+2.Ejecutamos el comando ```git branch -M main```
+
+![](capturas/2g.png)
+
+3.Por ultimo ejecutamos el comando ```git push -u gitlab main```
+
+![](capturas/3g.png)
+
+Con los pasos anteriores tendriamos nuestro archivo en _GitLab_
+
+![](capturas/4g.png)
