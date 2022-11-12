@@ -24,7 +24,7 @@
 
 ![](capturas/5.png)
 ---
-7.Ejecutamos el comando  ```git init -m "Aqui podemos poner cualquier mensaje"``` eviando nuestro archivo de texo a _(Local Repository)_, es decir, nuestro historial de cambios o podria asociarse tambien con fotos de nuestro codigo.
+7.Ejecutamos el comando  ```git commit -m "Aqui podemos poner cualquier mensaje"``` eviando nuestro archivo de texo a _(Local Repository)_, es decir, nuestro historial de cambios o podria asociarse tambien con fotos de nuestro codigo.
 
 ![](capturas/6.png)
 ---
@@ -36,7 +36,7 @@
 
 ![](capturas/9.png)
 ---
-10.Para poder subir dicho archivo a un repositorio local como __GitHub__ o __GitLab__ debemos previamente crearnos un repositorio en el sitio web [GitHub](https://github.com/) usando nuestra cuenta.
+10.Para poder subir dicho archivo a un repositorio externo como __GitHub__ o __GitLab__ debemos previamente crearnos un repositorio en el sitio web [GitHub](https://github.com/) o [GitLab](https://gitlab.com/) usando nuestra cuenta.
 
 ---
 11.Una vez dentro y con nuestra cuenta creada , damos en el boton de nuevo repositorio.
