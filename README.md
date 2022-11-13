@@ -3,12 +3,12 @@
 1.Crear un directorio y dentro del mismo crear un archivo de texto.
 
 ---
-2.Damos click derecho y en el menu desplegado seleccionamos _*Git Bash Here*_.
+2.Damos click derecho y en el menú desplegado seleccionamos _*Git Bash Here*_.
 
 ![](capturas/1.png)
 
 ---
-3.Ejecutamso el comando ```git init```.
+3.Ejecutamos el comando ```git init```.
 
 ![](capturas/2.png)
 ---
@@ -20,15 +20,15 @@
 
 ![](capturas/4.png)
 ---
-6.Ejecutamos nuevamente el comando ```git status -s``` y comprobamos que justo al lado de el archivo aparece una _(A)_ de color verde indicando que el archivo se encuentra en _(staged area)_, es decir ,_esta indexado_ listo para formar parte del historial de cambios del proyecto.
+6.Ejecutamos nuevamente el comando ```git status -s``` y comprobamos que justo al lado de el archivo aparece una _(A)_ de color verde indicando que el archivo se encuentra en _(staged area)_, es decir ,_está indexado_ listo para formar parte del historial de cambios del proyecto.
 
 ![](capturas/5.png)
 ---
-7.Ejecutamos el comando  ```git commit -m "Aqui podemos poner cualquier mensaje"``` eviando nuestro archivo de texo a _(Local Repository)_, es decir, nuestro historial de cambios o podria asociarse tambien con fotos de nuestro codigo.
+7.Ejecutamos el comando  ```git commit -m "Aquí podemos poner cualquier mensaje"``` eviando nuestro archivo de texo a _(Local Repository)_, es decir, nuestro historial de cambios o podría asociarse también con fotos de nuestro código.
 
 ![](capturas/6.png)
 ---
-8.Si ejecutamos el comando ```git status -s``` esta vez no nos saldra ningun archivo , lo que indica que todos estan en _(Local Repository)_ y desde el ultimo cambio que guardamos,no hubo ninguno mas.
+8.Si ejecutamos el comando ```git status -s``` esta vez no nos saldrá ningún archivo , lo que indica que todos están en _(Local Repository)_ y desde el último cambio que guardamos,no hubo ninguno más.
 
 ![](capturas/8.png)
 ---
@@ -39,21 +39,21 @@
 10.Para poder subir dicho archivo a un repositorio externo como __GitHub__ o __GitLab__ debemos previamente crearnos un repositorio en el sitio web [GitHub](https://github.com/) o [GitLab](https://gitlab.com/) usando nuestra cuenta.
 
 ---
-11.Una vez dentro y con nuestra cuenta creada , damos en el boton de nuevo repositorio.
+11.Una vez dentro y con nuestra cuenta creada , damos en el botón de nuevo repositorio.
 
 ![](capturas/10.png)
 
 ---
-12.Le damos un nombre
+12.Le damos un nombre.
 
 ![](capturas/11.png)
 
 ---
-13.Damos en el boton crear 
+13.Damos en el botón crear.
 
 
 ---
-14.Copiamos la url del repositorio
+14.Copiamos la url del repositorio.
 
 
 
@@ -69,20 +69,20 @@
 
 
 ---
-17.Por ultimo ejecutamos el comando ```git push -u origin main```, si es primera vez que ejecutamos este comando en nuestro ordenador , nos solicitara las credenciales de nuestra cuenta en github.
+17.Por último ejecutamos el comando ```git push -u origin main```, si es primera vez que ejecutamos este comando en nuestro ordenador , nos solicitará las credenciales de nuestra cuenta en github.
 
 ![](capturas/15.png)
 
 
 ---
-18.Siguiendo los pasos anteriores ya tendriamos nuestro archivo en git hub 
+18.Siguiendo los pasos anteriores ya tendríamos nuestro archivo en git hub 
 
 ![](capturas/16.png)
 
 
 # Git Lab
 
-1.Manteniendo los pasos anteriores ,para subir nuestro archivo a _GitLab_ solo tendriamos que cambiar el repositorio remoto, utilizando el comando ```git remote add gitlab``` seguido del [url del repositorio](https://gitlab.com/MarcosRdguez/ejercicios-a-y-b.git) dode escribo gitlab puedes poner cualqier cosa.
+1.Manteniendo los pasos anteriores ,para subir nuestro archivo a _GitLab_ solo tendríamos que cambiar el repositorio remoto, utilizando el comando ```git remote add gitlab``` seguido del [url del repositorio](https://gitlab.com/MarcosRdguez/ejercicios-a-y-b.git) donde escribo gitlab puedes poner cualqier cosa.
 
 ![](capturas/1g.png)
 
@@ -90,16 +90,16 @@
 
 ![](capturas/2g.png)
 
-3.Por ultimo ejecutamos el comando ```git push -u gitlab main```
+3.Por último ejecutamos el comando ```git push -u gitlab main```
 
 ![](capturas/3g.png)
 
-Con los pasos anteriores tendriamos nuestro archivo en _GitLab_
+Con los pasos anteriores tendríamos nuestro archivo en _GitLab_
 
 ![](capturas/4g.png)
 
 # Modificaciones:
-1.Esta linea ha sido insertada en _GitHub_ y posteriormente haré un ```commint``` de ella para actualizar los cambios en mi repositorio local haciendo uso del comando ```git pull orgin main ```
+1.Esta línea ha sido insertada en _GitHub_ y posteriormente haré un ```commint``` de ella para actualizar los cambios en mi repositorio local haciendo uso del comando ```git pull orgin main ```
 
 ![](capturas/1m.png)
 
@@ -114,12 +114,12 @@ Con los pasos anteriores tendriamos nuestro archivo en _GitLab_
 
 ![](capturas/5m.png)
 
-3.Si hacemos un cambio en el documento y luego ejecutamos el comando ```git add nombre_del_documento``` y autoseguido intentamos lo comentado anteriormente ```git checkout nombre_del_archivo``` observamos que no sucede nada porque ya hemos indexado el archivo, es decir , ahora se encuentra en la _(staged area)_ y primero debemos sacarlo de ahi para poder ejecutar el comando anterior , para ello, hacemos uso del comando ```git reset HEAD nombre_del_archivo``` y luego aplicamos el comando ```git checkout nombre_del_archivo``` y observamos que todos los cambios en el documento se deshacen.
+3.Si hacemos un cambio en el documento y luego ejecutamos el comando ```git add nombre_del_documento``` y autoseguido intentamos lo comentado anteriormente ```git checkout nombre_del_archivo``` observamos que no sucede nada porque ya hemos indexado el archivo, es decir , ahora se encuentra en la _(staged area)_ y primero debemos sacarlo de ahí para poder ejecutar el comando anterior , para ello, hacemos uso del comando ```git reset HEAD nombre_del_archivo``` y luego aplicamos el comando ```git checkout nombre_del_archivo``` y observamos que todos los cambios en el documento se deshacen.
 
 
 ![](capturas/6m.png)
 
-4.Para regresar a una version especifica de un archivo de forma temporal ejecutamos el comando ```git checkout hash_del archivo nombre_del_archivo```
+4.Para regresar a una versión específica de un archivo de forma temporal ejecutamos el comando ```git checkout hash_del archivo nombre_del_archivo```
 
 - El hash del archivo en sus diferentes versiones podemos buscarlo en:
     
